@@ -8,7 +8,13 @@
     "code": "xyz123",
     "stock": 15
   },
-  {},
+  {"id": 2,
+  "title": "prodcuto prueba 2",
+  "description": "Producto modificado",
+  "price": 300,
+  "thumbnail": "Imagen mod",
+  "code": "abc222",
+  "stock": 15},
   {
     "id": 3,
     "title": "producto prueba 3",
