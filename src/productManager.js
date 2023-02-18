@@ -1,6 +1,6 @@
 import fs from "fs";
 
-class ProductManager {
+export default class ProductManager  {
 
     constructor(path) {
         this.path = path;
@@ -82,11 +82,11 @@ class ProductManager {
 
 }
 
-let pm = new ProductManager("./files/products.json");
-pm.getProducts().then(products => console.log(products));
-pm.addProduct("producto prueba", "Este es un producto prueba", 200, "Sin imagen", "abc123", 25);
+/* let pm = new ProductManager("./files/products.json"); */
+/* pm.getProducts().then(products => console.log(products)); */
+/* pm.addProduct("producto prueba", "Este es un producto prueba", 200, "Sin imagen", "abc123", 25);
 pm.addProduct("producto prueba", "Este es un producto prueba", 200, "Sin imagen", "dce125", 10);
 pm.getProducts().then(products => console.log(products));
 pm.getProductById(1).then(product => console.log(product));
 pm.updateProduct(1, "modificacion", "Producto modificado", 300, "Imagen mod", "xyz123", 15);
-pm.deleteProduct(2);
+pm.deleteProduct(2); */
